@@ -4,5 +4,5 @@ token:
 secure: FIREBASE_TOKEN
 language: node_js
 node_js:
-- "iojs"
+  - "iojs"
   - "7"
