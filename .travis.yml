@@ -1,4 +1,9 @@
+before_deploy: yarn build
 deploy:
+cache:
+yarn: true
+directories:
+- node_modules
 provider: firebase
 token:
 secure: FIREBASE_TOKEN
