@@ -1,7 +1,5 @@
 
-before_script:
-- npm install
-- npm run build
+
 deploy:
   cache:
   yarn: true
@@ -12,7 +10,11 @@ deploy:
     secure: FIREBASE_TOKEN
   language: node_js
   project: "pocketflix-external"
+  script:
+  - npm run build
   message: "Deploy"
   node_js:
     - "7"
+
+
 
