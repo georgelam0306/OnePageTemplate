@@ -1,20 +1,20 @@
 
 
 deploy:
-  cache:
-  yarn: true
-  directories:
-  - node_modules
-  provider: firebase
-  token:
-    secure: FIREBASE_TOKEN
-  language: node_js
-  project: "pocketflix-external"
-  script:
-  - npm run build
-  message: "Deploy"
-  node_js:
-    - "7"
+cache:
+yarn: true
+directories:
+- node_modules
+provider: firebase
+token:
+  secure: FIREBASE_TOKEN
+language: node_js
+project: "pocketflix-external"
+script:
+- npm run build
+message: "Deploy"
+node_js:
+  - "7"
 
 
 
