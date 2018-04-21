@@ -10,5 +10,5 @@ secure: FIREBASE_TOKEN
 language: node_js
 node_js:
   - "7"
-script:
-- yarn build
+before_script:
+- npm run build
