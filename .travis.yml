@@ -2,3 +2,7 @@ deploy:
 provider: firebase
 token:
 secure: FIREBASE_TOKEN
+language: node_js
+node_js:
+- "iojs"
+  - "7"
