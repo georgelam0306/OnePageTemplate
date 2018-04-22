@@ -8,7 +8,7 @@ export default class Footer extends React.Component<Props> {
       <section className="footer">
         <Container>
           <Row>
-            <Col>copyright and stuff</Col>
+            <Col>© Pocketflix Studios 2018</Col>
           </Row>
         </Container>
       </section>

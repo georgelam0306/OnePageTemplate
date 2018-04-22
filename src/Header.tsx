@@ -8,7 +8,7 @@ export default class Header extends React.Component<Props> {
       <section className="Header">
         <Container>
           <Row>
-            <Col>Header</Col>
+            <Col />
           </Row>
         </Container>
       </section>
