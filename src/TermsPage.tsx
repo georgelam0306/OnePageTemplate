@@ -445,7 +445,7 @@ export default class TermsPage extends React.Component<Props> {
             information.
           </p>
 
-          <p> </p>
+          <p />
 
           <p>16. ADDITIONAL TERMS</p>
 
@@ -547,7 +547,7 @@ export default class TermsPage extends React.Component<Props> {
             Android App
           </p>
 
-          <p> </p>
+          <p />
 
           <p>17. DISPUTE RESOLUTION FOR CONSUMERS</p>
 
