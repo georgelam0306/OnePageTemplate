@@ -1,5 +1,7 @@
 
 
+before_install:
+  - 'npm i -g firebase-tools'
 deploy:
   provider: firebase
   token:
