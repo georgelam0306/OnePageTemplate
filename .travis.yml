@@ -2,6 +2,8 @@
 
 before_install:
   - 'npm i -g firebase-tools'
+script:
+- npm run build
 deploy:
   provider: firebase
   token:
@@ -11,8 +13,6 @@ yarn: true
 directories:
 - node_modules
 language: node_js
-script:
-- npm run build
 message: "Deploy"
 node_js:
   - "7"
