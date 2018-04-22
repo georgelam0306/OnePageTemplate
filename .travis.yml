@@ -8,7 +8,7 @@ directories:
 language: node_js
 script:
   - npm run build
-  - firebase deploy --token=$FIREBASE_TOKEN--non- interactive
+  - firebase deploy --token=$FIREBASE_TOKEN --non-interactive
 message: "Deploy"
 node_js:
   - "7"
