@@ -2,7 +2,7 @@ import * as React from "react";
 import Header from "./Header";
 import Footer from "./Footer";
 
-interface Props {}
+interface Props { }
 
 export default class PrivacyPage extends React.Component<Props> {
   render() {
