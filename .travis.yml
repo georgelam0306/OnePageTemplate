@@ -2,17 +2,13 @@
 
 before_install:
   - 'npm i -g firebase-tools'
-script:
-- npm run build
-deploy:
-  provider: firebase
-  token:
-    secure: $FIREBASE_TOKEN
-  project: "pocketflix-external"
 yarn: true
 directories:
 - node_modules
 language: node_js
+script:
+  - npm run build
+  - firebase deploy --token= $FIREBASE_TOKEN--non- interactive
 message: "Deploy"
 node_js:
   - "7"
