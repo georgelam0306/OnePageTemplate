@@ -9,7 +9,7 @@ export default class LandingPage extends React.Component<Props> {
     return (
       <div className="landing-page">
         <Header />
-        Stuff
+        Testing out deploy
         <Footer />
       </div>
     );
