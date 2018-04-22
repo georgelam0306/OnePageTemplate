@@ -5,7 +5,7 @@ before_install:
 deploy:
   provider: firebase
   token:
-    secure: FIREBASE_TOKEN
+    secure: $FIREBASE_TOKEN
   project: "pocketflix-external"
 yarn: true
 directories:
