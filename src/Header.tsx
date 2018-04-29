@@ -5,8 +5,8 @@ import { Link } from "react-router-dom";
 const cx = require("classnames");
 
 interface Props {
-  fixed: boolean;
-  scrollPos: number;
+  fixed?: boolean;
+  scrollPos?: number;
 }
 
 export default class Header extends React.Component<Props> {
@@ -16,7 +16,9 @@ export default class Header extends React.Component<Props> {
         className={cx({
           headerFixed: this.props.fixed,
           header: true,
-          headerBackground: this.props.scrollPos > 300
+          headerBackground: this.props.scrollPos
+            ? this.props.scrollPos > 300
+            : false
         })}
       >
         <Container>
