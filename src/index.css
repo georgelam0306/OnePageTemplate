@@ -10,10 +10,24 @@ body {
 }
 
 .header {
+  z-index: 1;
+  padding: 20px;
+  background-color: none;
+  transition: background-color 0.2s;
+  -webkit-transition: background-color 0.2s; /* Safari */
+}
+
+.headerBackground {
+  background-color: black;
+  transition: background-color 0.2s;
+  -webkit-transition: background-color 0.2s; /* Safari */
+}
+
+.headerFixed {
   position: fixed;
+
   left: 0;
   right: 0;
-  z-index: 1;
 }
 
 .header ul {
@@ -25,7 +39,6 @@ body {
   float: left;
   position: relative;
   height: 44px;
-  border-left: 1px solid #eee;
 }
 
 .header ul li:first-child,

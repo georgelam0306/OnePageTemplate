@@ -1,5 +1,6 @@
 import * as React from "react";
 import { Container, Row, Col } from "react-grid-system";
+import { Link } from "react-router-dom";
 interface Props {}
 
 export default class Footer extends React.Component<Props> {
@@ -9,9 +10,12 @@ export default class Footer extends React.Component<Props> {
         <Container>
           <Row>
             <Col>
-              <Row>Top</Row>
-              <Row>Privacy Policy</Row>
-              <Row>Terms of Service</Row>
+              <Row>
+                <Link to="/privacy">Privacy Policy</Link>
+              </Row>
+              <Row>
+                <Link to="/terms">Terms of Service</Link>
+              </Row>
             </Col>
             <Col />
 
