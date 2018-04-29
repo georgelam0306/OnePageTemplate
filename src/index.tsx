@@ -4,6 +4,7 @@ import { BrowserRouter as Router, Route } from "react-router-dom";
 import LandingPage from "./LandingPage";
 import PrivacyPage from "./PrivacyPage";
 import TermsPage from "./TermsPage";
+import "./index.css";
 
 const App = () => (
   <Router>

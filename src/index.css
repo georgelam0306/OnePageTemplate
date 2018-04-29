@@ -3,3 +3,82 @@ body {
   padding: 0;
   font-family: sans-serif;
 }
+
+.footer {
+  padding-top: 20px;
+  background-color: gray;
+}
+
+.header {
+  position: fixed;
+  left: 0;
+  right: 0;
+  z-index: 1;
+}
+
+.header ul {
+  margin: 0;
+  list-style: none;
+}
+
+.header ul li {
+  float: left;
+  position: relative;
+  height: 44px;
+  border-left: 1px solid #eee;
+}
+
+.header ul li:first-child,
+.header ul ul li {
+  border-left: 0 !important;
+}
+
+.header li > a {
+  display: block;
+  padding: 0 12px;
+  font-size: 12px;
+  font-weight: 700;
+  text-transform: uppercase;
+  height: 44px;
+  color: #666;
+}
+
+.header li i {
+  vertical-align: top;
+}
+
+.header li i.icon-angle-down {
+  margin: 0 0 0 5px !important;
+}
+
+.header li i:first-child {
+  margin-right: 3px;
+}
+
+.company-info {
+  height: 100%;
+}
+
+.company-info .title {
+  font-weight: bold;
+  font-size: 24px;
+  text-align: center;
+  vertical-align: center;
+  height: 50px;
+  padding: 120px;
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+  max-width: 700px;
+  margin-bottom: 50px;
+}
+
+.company-info .detail {
+  text-align: center;
+  vertical-align: center;
+  padding: 10px;
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+  max-width: 700px;
+}

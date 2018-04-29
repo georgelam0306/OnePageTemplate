@@ -1,0 +1,19 @@
+.hero {
+  width: 100%;
+  height: auto;
+  position: relative;
+}
+
+.logo {
+  position: absolute;
+  left: 0;
+  top: 0.1;
+  width: 400px;
+  height: auto;
+}
+
+.hero-image {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
